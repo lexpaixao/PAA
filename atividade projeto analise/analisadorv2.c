@@ -104,14 +104,6 @@ int main() {
    	passos=numeroDeelseif+numeroDeprintscanf+(numerovariaveis-dentroDeMain)+numeroatribuicoes;
     resultado=(numeroDeLoopsFor+numeroDeLoopsWhile);
     
-    printf("\n%d loops for aninhados.\n", numeroDeLoopsFor);
-    printf("%d loops while/dowhile encontrados.\n", numeroDeLoopsWhile);
-    printf("%d blocos if/else encontrados.\n", numeroDeelseif);
-    printf("%d variáveis declaradas.\n", numerovariaveis-dentroDeMain );
-    printf("%d print/scanf encontrados.\n", numeroDeprintscanf);
-    printf("%d atribuicoes encontrados.\n", numeroatribuicoes);
-    printf("%d Passos.\n",passos );
-    
 	
     if(aninhados==true){
     	printf("resposta.\n\nBigO(n^)\nBigO= (n^%d)+%d \n",resultado,passos);
