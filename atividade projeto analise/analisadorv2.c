@@ -6,7 +6,7 @@ int main() {
     FILE *arquivo;
     char linha[1000];
 
-    arquivo = fopen("Be.c", "r");
+    arquivo = fopen("algoritmo.c", "r");
     if (arquivo == NULL) {
         printf("Erro ao abrir o arquivo.\n");
         return 1;
